@@ -1,0 +1,9 @@
+name = "get-quotes-worker"
+main = "src/index.ts"
+compatibility_date = "2024-03-20"
+
+minify = true
+
+[[services]]
+binding = "dbworker"
+service = "db-access-worker"
