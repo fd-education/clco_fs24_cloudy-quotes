@@ -4,6 +4,8 @@ compatibility_date = "2024-03-20"
 
 minify = true
 
+account_id = "2ccf6fc629cc8aed0b98f1771d48a53e"
+
 [[services]]
 binding = "dbworker"
 service = "db-access-worker"

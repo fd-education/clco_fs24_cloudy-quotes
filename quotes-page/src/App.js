@@ -7,6 +7,7 @@ export const App = () => {
   useEffect(() => {
     const url =
       'https://get-quotes-worker.fabian-diemand.workers.dev/api/rnd-quote';
+      
     const headers = {
       'Content-Type': 'application/json',
       Accept: 'application/json',

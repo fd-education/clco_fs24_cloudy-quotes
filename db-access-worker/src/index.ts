@@ -12,7 +12,7 @@ export default {
 		
 		switch(pathname){
 			case '/rnd-quote':
-					const result = await env.QUOTES_DB.prepare(
+					const result = await env.DB.prepare(
 						"SELECT * FROM quotes ORDER BY RANDOM() LIMIT 1;"
 					).first();
 

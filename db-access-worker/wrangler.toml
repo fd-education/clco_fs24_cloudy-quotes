@@ -3,9 +3,11 @@ main = "src/index.ts"
 compatibility_date = "2024-03-20"
 workers_dev = false
 
+account_id = "2ccf6fc629cc8aed0b98f1771d48a53e"
+
 # Bind a D1 database. D1 is Cloudflare’s native serverless SQL database.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#d1-databases
 [[d1_databases]]
-binding = "QUOTES_DB" # i.e. available in your Worker on env.DB
-database_name = "quotes"
-database_id = "93dc7db0-b5f0-4afd-bb42-182b0756c188"
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "quotes-db"
+database_id = "9509fb5c-7db1-4cfd-aecf-b283a2520163"
